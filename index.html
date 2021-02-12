@@ -7,35 +7,119 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<!-- Первый блок -->
-		<div class="first">
-			<div class="block_1">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About me</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contacts</a></li>
-				</ul>
-			</div>
-			<div class="block_2">
-				<ul>
-					<li id="name"><p>Denis Novik</p></li>
-					<li id="description"><p>UX | UI designer<br>24 years old, Minsk</p></li>
-					<li id="lang"><p id="gg">RU | ENG</p></li>
-				</ul>
-				<img src="img/denis.jpg" alt="denchik">
+		<!-- Блок 1 -->
+		<div class="block">
+			<div class="first">
+				<div class="block_1">
+					<ul id="anchor0">
+						<li><a id="home" href="#anchor0">Home</a></li>
+						<li><a href="#anchor1">About me</a></li>
+						<li><a href="#anchor2">Skills</a></li>
+						<li><a href="#anchor3">Portfolio</a></li>
+						<li><a href="#anchor4">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="block_2">
+					<ul>
+						<li id="name"><p>Denis Novik</p></li>
+						<li id="description"><p>UX | UI designer<br>24 years old, Minsk</p></li>
+						<li id="lang"><p id="gg">RU | ENG</p></li>
+					</ul>
+					<img src="img/denis.jpg" alt="denchik">
+				</div>
 			</div>
 		</div>
-
-		<!-- Второй блок -->
-		<div class="second">
+		<!-- Блок 2 -->
+		<div id="anchor1" class="second">
 			<h2>About me</h2>
 			<div>
 				<p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
 				<p> I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
 				<p>Ready to implement excellent projects<br>with wonderful people.</p>
 			</div>
+		</div>
+
+		<!-- Блок 3 -->
+		<div id="anchor2" class="block_3">
+			<div class="block_31">
+				<h2>Skills</h2>
+				<p id="skills">I work in such programs as</p>
+			</div>
+			<div class="instr">
+
+				<div class="each">
+					<div class="ap_1">
+						<img src="img/aps.svg" alt="">
+					</div>
+					<div class="ap_2">
+						<p>Adobe<br>Photoshop</p>
+					</div>
+					<div>
+						<img src="img/4stars.svg" alt="">
+					</div>
+				</div>
+
+				<div class="each">
+					<div class="ap_1">
+						<img src="img/ai.svg" alt="">
+					</div>
+					<div class="ap_2">
+						<p>Adobe<br>Illustrator</p>
+					</div>
+					<div>
+						<img src="img/3stars.svg" alt="">
+					</div>
+				</div>
+
+				<div class="each">
+					<div class="ap_1">
+						<img src="img/aae.svg" alt="">
+					</div>
+					<div class="ap_2">
+						<p>Adobe<br>After Effects</p>
+					</div>
+					<div>
+						<img src="img/4stars.svg" alt="">
+					</div>
+				</div>
+
+				<div class="each">
+					<div class="ap_1">
+						<img src="img/figma.svg" alt="">
+					</div>
+					<div class="ap_2">
+						<p>Figma<br> </p>
+					</div>
+					<div>
+						<img src="img/4stars.svg" alt="">
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Блок 4 -->
+		<div id="anchor3" class="block_4">
+			<h2>Portfolio</h2>
+			<img id="pic" src="img/woman.jpg">
+			<h3>Online fashion store - Homepage</h3>
+			<img src="img/reebok.jpg">
+			<h3>Reebok Store - Concept</h3>
+			<img src="img/braun.jpg">
+			<h3 id="last_h3">Braun Landing Page - Concept</h3>
+		</div>
+
+		<!-- Блок 5 -->
+		<div id="anchor4" class="block_5">
+			<h2>Contacts</h2>
+			<p id="last1">Want to know more or just chat?<br>You are welcome!</p>
+			<a id="send" href="/">Send message</a>
+			<div>
+				<a href="/"><img src="img/linkedin.svg"></a>
+				<a href="/"><img src="img/inst.svg"></a>
+				<a href="/"><img src="img/behance.svg"></a>
+				<a href="/"><img src="img/dribble.svg"></a>
+			</div>
+			<p id="last2">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
 		</div>
 	</body>
 	</html>

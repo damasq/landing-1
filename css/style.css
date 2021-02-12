@@ -40,29 +40,41 @@
 
 body{
 	margin: 0 auto;
-  padding: 0 5px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
+  width: 100%;
   /*background: lightgrey;*/
-  max-width: 70%;
-  min-width: 800px;
   /*border: solid 1px;*/
+  background-color: #ffffff;
 }
 div.block_1{
   margin: 0 auto;
   border-bottom: solid 1px #828282;
 }
+div.block_1 a{
+  color: #828282;
+}
+div.block_1 a:hover{
+  color: #070707;
+}
+/* Не уверен что это нужно*/
+#home{
+  color: #070707;
+}
+.block{
+  padding: 0 16%;
+}
 .block_1 ul{
   display: flex;
-  /*background: lightblue;*/
   justify-content: space-between;
   padding: 30px 0;
-  color: #828282;
   font-weight: bold;
 }
+
 .block_1 li{
   /*border: solid 1px;
   /*background: aqua;*/
+  color: #828282;
 }
 .block_2 ul{
   display: flex;
@@ -93,7 +105,7 @@ div.block_1{
   height:100px;
   padding-top: 80px;
 }
-img{
+.block_2 img{
   width: 100%;
   margin-bottom: 100px;
 }
@@ -119,8 +131,87 @@ h2{
   justify-content: space-around;
 }
 .second p{
-  display: flex;
-  /*border: solid 1px;*/
-  justify-content: center;
+  /*display: flex;
+  border: solid 1px;
+  justify-content: center;*/
   text-align: center;
 }
+.block_3{
+  padding: 0 16%;
+}
+.block_31{
+  text-align: center;
+}
+.block_31 h2{
+  padding-top: 91px;
+}
+#skills{
+  margin-top: 69px;
+}
+.instr{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 82px;
+  margin-bottom: 111px;
+}
+.each{
+  text-align: center;
+}
+.ap_2{
+  font-size: 14px;
+  font-weight: bold;
+  color: #828282;
+  padding-top: 25px;
+  padding-bottom: 40px; 
+}
+.block_4{
+  background: #f6f6f6;
+  text-align: center;
+}
+.block_4 h2{
+  padding-top: 110px;
+}
+.block_4 h3{
+  text-decoration: underline;
+  padding-top: 45px;
+  padding-bottom: 100px;
+}
+#img{
+  padding: 400px;
+}
+#pic{
+  padding-top: 50px;
+}
+.block_5{
+  text-align: center;
+}
+#send{
+  background-color: black;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 21px;
+}
+.block_5 h2{
+  padding-top: 115px;
+  padding-bottom: 20px;
+}
+#last1{
+  padding-top: 20px;
+  padding-bottom: 42px;
+}
+.block_5 div{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 86px;
+  margin-bottom: 45px;
+}
+#last2{
+  color: #828282;
+  padding-bottom: 120px;
+}
+/* Тень
+.second, .block_4{
+  box-shadow: 0 0 40px 1px rgb(0, 0, 0, 0.3); 
+}*/
