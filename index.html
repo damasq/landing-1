@@ -7,119 +7,136 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<!-- Блок 1 -->
-		<div class="block">
-			<div class="first">
-				<div class="block_1">
-					<ul id="anchor0">
-						<li><a id="home" href="#anchor0">Home</a></li>
-						<li><a href="#anchor1">About me</a></li>
-						<li><a href="#anchor2">Skills</a></li>
-						<li><a href="#anchor3">Portfolio</a></li>
-						<li><a href="#anchor4">Contacts</a></li>
-					</ul>
+		<div class="menu" id="anchor0">
+			<div class="menu__content content">
+				<ul class="menu__list">
+					<li><a href="#anchor0">Home</a></li>
+					<li><a href="#anchor1">About me</a></li>
+					<li><a href="#anchor2">Skills</a></li>
+					<li><a href="#anchor3">Portfolio</a></li>
+					<li><a href="#anchor4">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="home">
+			<div class="home__content content">
+				<div class="home__items">
+					<h1 class="home__title">Denis<br>Novik</h1>
+					<p class="home__text">UX | UI designer<br>24 years old, Minsk</p>
+					<p class="home__lang-switch"><span>RU</span> | ENG</p>
 				</div>
-				<div class="block_2">
-					<ul>
-						<li id="name"><p>Denis Novik</p></li>
-						<li id="description"><p>UX | UI designer<br>24 years old, Minsk</p></li>
-						<li id="lang"><p id="gg">RU | ENG</p></li>
-					</ul>
-					<img src="img/denis.jpg" alt="denchik">
+				<img src="img/home/denis.jpg">
+			</div>
+		</div>
+		<div class="about last-four" id="anchor1">
+			<div class="about__content content">
+				<h2 class="about__title">About me</h2>
+				<div class="about__text">
+					<p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
+					<p>I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
+					<p>Ready to implement excellent projects<br>with wonderful people.</p>
 				</div>
 			</div>
 		</div>
-		<!-- Блок 2 -->
-		<div id="anchor1" class="second">
-			<h2>About me</h2>
-			<div>
-				<p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
-				<p> I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
-				<p>Ready to implement excellent projects<br>with wonderful people.</p>
+		<div class="skills last-four" id="anchor2">
+			<div class="skills__content content">
+				<div class="skills__header">
+					<h2 class="skills__title">Skills</h2>
+					<p class="skills__text">I work in such programs as</p>
+				</div>
+				<div class="skills__row">
+					<div class="skills__column">
+						<div class="item-skills__icon">
+							<img src="img/skills/aps.svg" alt="">
+						</div>
+						<div class="item-skills__title">
+							<p>Adobe<br>Photoshop</p>
+						</div>
+						<div>
+							<img src="img/skills/4stars.svg" alt="">
+						</div>
+					</div>
+					<div class="skills__column">
+						<div class="item-skills__icon">
+							<img src="img/skills/ai.svg" alt="">
+						</div>
+						<div class="item-skills__title">
+							<p>Adobe<br>Illustrator</p>
+						</div>
+						<div>
+							<img src="img/skills/3stars.svg" alt="">
+						</div>
+					</div>
+					<div class="skills__column">
+						<div class="item-skills__icon">
+							<img src="img/skills/aae.svg" alt="">
+						</div>
+						<div class="item-skills__title">
+							<p>Adobe<br>After Effects</p>
+						</div>
+						<div>
+							<img src="img/skills/4stars.svg" alt="">
+						</div>
+					</div>
+
+					<div class="skills__column">
+						<div class="item-skills__icon">
+							<img src="img/skills/figma.svg" alt="">
+						</div>
+						<div class="item-skills__title">
+							<p>Figma<br> <!--Это символ alt+01696--></p>
+						</div>
+						<div>
+							<img src="img/skills/4stars.svg" alt="">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<!-- Блок 3 -->
-		<div id="anchor2" class="block_3">
-			<div class="block_31">
-				<h2>Skills</h2>
-				<p id="skills">I work in such programs as</p>
-			</div>
-			<div class="instr">
-
-				<div class="each">
-					<div class="ap_1">
-						<img src="img/aps.svg" alt="">
+		<div class="portfolio last-four" id="anchor3">
+			<div class="portfolio__content content">
+				<h2 class="portfolio__title">Portfolio</h2>
+				<div class="portfolio__column">
+					<div class="portfolio__items">
+						<div class="item-portfolio__work">
+							<img src="img/portfolio/woman.jpg">
+						</div>
+						<div class="item-portfolio__text">
+							<p>Online fashion store - Homepage</p>
+						</div>
 					</div>
-					<div class="ap_2">
-						<p>Adobe<br>Photoshop</p>
+					<div class="portfolio__items">
+						<div class="item-portfolio__work">
+							<img src="img/portfolio/reebok.jpg">
+						</div>
+						<div class="item-portfolio__text">
+							<p>Reebok Store - Concept</p>
+						</div>
 					</div>
-					<div>
-						<img src="img/4stars.svg" alt="">
-					</div>
-				</div>
-
-				<div class="each">
-					<div class="ap_1">
-						<img src="img/ai.svg" alt="">
-					</div>
-					<div class="ap_2">
-						<p>Adobe<br>Illustrator</p>
-					</div>
-					<div>
-						<img src="img/3stars.svg" alt="">
+					<div class="portfolio__items">
+						<div class="item-portfolio__work">
+							<img src="img/portfolio/braun.jpg">
+						</div>
+						<div class="item-portfolio__text">
+							<p>Braun Landing Page - Concept</p>
+						</div>
 					</div>
 				</div>
-
-				<div class="each">
-					<div class="ap_1">
-						<img src="img/aae.svg" alt="">
-					</div>
-					<div class="ap_2">
-						<p>Adobe<br>After Effects</p>
-					</div>
-					<div>
-						<img src="img/4stars.svg" alt="">
-					</div>
-				</div>
-
-				<div class="each">
-					<div class="ap_1">
-						<img src="img/figma.svg" alt="">
-					</div>
-					<div class="ap_2">
-						<p>Figma<br> </p>
-					</div>
-					<div>
-						<img src="img/4stars.svg" alt="">
-					</div>
-				</div>
-
 			</div>
 		</div>
-		<!-- Блок 4 -->
-		<div id="anchor3" class="block_4">
-			<h2>Portfolio</h2>
-			<img id="pic" src="img/woman.jpg">
-			<h3>Online fashion store - Homepage</h3>
-			<img src="img/reebok.jpg">
-			<h3>Reebok Store - Concept</h3>
-			<img src="img/braun.jpg">
-			<h3 id="last_h3">Braun Landing Page - Concept</h3>
-		</div>
-
-		<!-- Блок 5 -->
-		<div id="anchor4" class="block_5">
-			<h2>Contacts</h2>
-			<p id="last1">Want to know more or just chat?<br>You are welcome!</p>
-			<a id="send" href="/">Send message</a>
-			<div>
-				<a href="/"><img src="img/linkedin.svg"></a>
-				<a href="/"><img src="img/inst.svg"></a>
-				<a href="/"><img src="img/behance.svg"></a>
-				<a href="/"><img src="img/dribble.svg"></a>
+		<div class="contacts last-four" id="anchor4">
+			<div class="contacts__content content">
+				<h2 class="contacts__title">Contacts</h2>
+				<p class="contacts__text">Want to know more or just chat?<br>You are welcome!</p>
+				<a class="contacts__button" href="/">Send message</a>
+				<div class="contacts__links">
+					<a href="/"><img src="img/contacts/linkedin.svg"></a>
+					<a href="/"><img src="img/contacts/inst.svg"></a>
+					<a href="/"><img src="img/contacts/behance.svg"></a>
+					<a href="/"><img src="img/contacts/dribble.svg"></a>
+				</div>
+				<p class="contacts__footer">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
 			</div>
-			<p id="last2">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
 		</div>
 	</body>
 	</html>

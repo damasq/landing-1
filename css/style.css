@@ -37,181 +37,127 @@
        url('../fonts/roboto-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/roboto-v20-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
 }
-
-body{
-	margin: 0 auto;
+body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-  width: 100%;
-  /*background: lightgrey;*/
-  /*border: solid 1px;*/
   background-color: #ffffff;
 }
-div.block_1{
+.content {
+  max-width: 66%;
   margin: 0 auto;
-  border-bottom: solid 1px #828282;
+  text-align: center;
 }
-div.block_1 a{
-  color: #828282;
-}
-div.block_1 a:hover{
-  color: #070707;
-}
-/* Не уверен что это нужно*/
-#home{
-  color: #070707;
-}
-.block{
-  padding: 0 16%;
-}
-.block_1 ul{
+/*-------------------------------*/
+ul {
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
   font-weight: bold;
+  border-bottom: solid 1px #828282;
 }
-
-.block_1 li{
-  /*border: solid 1px;
-  /*background: aqua;*/
+li a {
   color: #828282;
 }
-.block_2 ul{
-  display: flex;
-  /*background: lightgreen;*/
-  /*border: solid 1px;*/
-  justify-content: space-between;
-  height: 160px;
-  align-items: center;
-}
-.block_2 li{
-  /*border: solid 1px;*/
-  width: 200px;
-  height: 100px;
+#anchor0 [href="#anchor0"] {
   color: black;
 }
-#name{
-  font-size: 48px;
-  font-weight: 700;
+ul li:hover {
+  text-decoration: underline;
 }
-#description p{
-  /*border: solid 1px;*/
-  width: 170px;
-  margin: 50px auto auto auto;
+/*-------------------------------*/
+.home__content {
+  padding: 40px 0 100px 0;
 }
-#lang{
+.home__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: bottom;
+}
+h1 {
+  font-size: 47px;
+  font-weight: bold;
+  line-height: 58px;
+}
+.home p {
+  padding-top: 70px;
+  text-align: left;
+}
+.home__lang-switch {
+  font-weight: bold;
   transform: rotate(-90deg);
-  width:100px;
   height:100px;
   padding-top: 80px;
 }
-.block_2 img{
-  width: 100%;
-  margin-bottom: 100px;
+.home__items span {
+  color: #828282;
 }
-/*.first{
-  height: 650px;
-}*/
-div.second{
-  /*border: solid 1px;*/
+.home img {
+  width: 100%;
+  margin-top: 40px;
+}
+/*-------------------------------*/
+div.last-four {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #f6f6f6;
 }
-h2{
-  text-align: center;
-  /*border: solid 1px;*/
+.about, .portfolio {
+  background-color: #f8f8f8;
+}
+h2 {
   font-weight: bold;
   font-size: 34px;
+  margin-bottom: 50px;
 }
-.second div{
+.about__content div {
   height: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.second p{
-  /*display: flex;
-  border: solid 1px;
-  justify-content: center;*/
-  text-align: center;
-}
-.block_3{
-  padding: 0 16%;
-}
-.block_31{
-  text-align: center;
-}
-.block_31 h2{
-  padding-top: 91px;
-}
-#skills{
-  margin-top: 69px;
-}
-.instr{
+/*-------------------------------*/
+.skills__row {
   display: flex;
   justify-content: space-between;
-  margin-top: 82px;
-  margin-bottom: 111px;
 }
-.each{
-  text-align: center;
+.skills__text {
+  margin-bottom: 80px;
 }
-.ap_2{
+.item-skills__title {
   font-size: 14px;
   font-weight: bold;
   color: #828282;
   padding-top: 25px;
-  padding-bottom: 40px; 
+  padding-bottom: 40px;
 }
-.block_4{
-  background: #f6f6f6;
-  text-align: center;
-}
-.block_4 h2{
-  padding-top: 110px;
-}
-.block_4 h3{
+/*-------------------------------*/
+.portfolio p {
   text-decoration: underline;
-  padding-top: 45px;
-  padding-bottom: 100px;
+  margin-top: 45px;
 }
-#img{
-  padding: 400px;
+.portfolio img {
+  width: 100%;
 }
-#pic{
-  padding-top: 50px;
+.portfolio__items {
+  margin-top: 100px;
 }
-.block_5{
-  text-align: center;
-}
-#send{
+/*-------------------------------*/
+.contacts__button {
   background-color: black;
   color: #fff;
   padding: 10px 30px;
   border-radius: 21px;
 }
-.block_5 h2{
-  padding-top: 115px;
-  padding-bottom: 20px;
-}
-#last1{
-  padding-top: 20px;
+.contacts__text {
   padding-bottom: 42px;
 }
-.block_5 div{
+.contacts__links {
   display: flex;
   justify-content: space-between;
   width: 350px;
   margin: 0 auto;
-  margin-top: 86px;
+  margin-top: 85px;
   margin-bottom: 45px;
 }
-#last2{
+.contacts__footer {
   color: #828282;
-  padding-bottom: 120px;
 }
-/* Тень
-.second, .block_4{
-  box-shadow: 0 0 40px 1px rgb(0, 0, 0, 0.3); 
-}*/
