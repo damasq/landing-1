@@ -135,7 +135,9 @@ h1 {
 }
 .home img {
   width: 100%;
+  height: 410.58px;
   margin-top: 40px;
+  object-fit: none;
 }
 /*-------------------------------*/
 h2 {
@@ -154,7 +156,8 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-@media ( max-width: 840px ) {
+
+@media (max-width: 840px) {
   .skills__row {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -163,12 +166,17 @@ h2 {
     flex-basis: 34%;
   }
 }
-.skills__text {
-  /*margin-bottom: 80px;*/
+
+@media (max-width: 500px) {
+  .skills__column {
+    flex-basis: 51%;
+  }
 }
+
 .skills__column {
   padding: 80px 0 0;
 }
+
 .item-skills__title {
   font-size: 14px;
   font-weight: bold;
