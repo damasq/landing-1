@@ -72,7 +72,18 @@ body {
   left: 0;
   top: 0;
   background-color: #fff;
-  z-index: 1;
+  z-index: ;
+}
+
+.header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 2;
 }
 
 li {
@@ -96,10 +107,78 @@ ul li:hover {
   justify-content: space-between;
   font-weight: bold;
   border-bottom: solid 1px #828282;
+  position: relative;
+  z-index: 3;
 }
 
 #anchor0 [href="#anchor0"] {
   color: black;
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__menu {
+
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 66px;
+  }
+
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 33px;
+    height: 20px;
+    z-index: 3;
+  }
+  .header__burger span {
+    position: absolute;
+    background-color: #000;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    top: 8px;
+  }
+  .header__burger:before,
+  .header__burger:after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+  }
+  .header__burger:before {
+    top: 0;
+  }
+  .header__burger:after {
+    bottom: 0;
+  }
+  .header__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 70px 0 0 0;
+  }
+  .header__list {
+    display: block;
+    padding-left: 26px;
+  }
+  .header__list li {
+    font-size: 34px;
+    padding: 0;
+    margin-bottom: 68px;
+  }
+  .header__list li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /*-------------------------------*/
@@ -135,9 +214,10 @@ h1 {
 }
 .home img {
   width: 100%;
-  height: 410.58px;
+  max-height: 410.58px;
+  min-height: 350px;
   margin-top: 40px;
-  object-fit: none;
+  object-fit: cover;
 }
 /*-------------------------------*/
 h2 {
@@ -212,6 +292,11 @@ h2 {
   margin: 0 auto;
   margin-top: 85px;
   margin-bottom: 45px;
+}
+@media (max-width: 767px){
+  .contacts__links {
+    width: 200px;
+  }
 }
 .contacts__footer {
   color: #828282;
