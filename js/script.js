@@ -5,3 +5,4 @@ function sub(btnId, menuId) {
     target.classList.toggle('hidden')
   })
 }
+sub('btnId', 'menuId')
